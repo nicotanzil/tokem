@@ -1,0 +1,25 @@
+@mixin shadow-1 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@mixin shadow-2 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@mixin shadow-3 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@mixin button-primary {
+  background: #5e5df0;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  transition: all 0.5s ease;
+  border: 1px solid #5e5df0;
+  &:hover {
+    background: #ffffff;
+    color: #5e5df0;
+  }
+}
