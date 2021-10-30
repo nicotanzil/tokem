@@ -1,0 +1,68 @@
+@import "./data/colors.scss";
+@import "./data/mixins.scss";
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  .about-divider {
+    @include divider-1;
+  }
+  .section-1 {
+    width: 100%;
+    min-height: 50vh;
+    padding: 0 10%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @include shadow-1;
+    .quote {
+      font-size: 24px;
+      color: $secondary-gray;
+    }
+    .detail {
+      font-size: 18px;
+      color: $primary-black;
+      font-weight: 500;
+      margin-top: 2rem;
+    }
+  }
+  .section-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: $primary-gray;
+    .left,
+    .content {
+      width: 25%;
+      padding: 10px;
+      margin: 10px 15px;
+    }
+    .left {
+      span {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .center,
+    .content {
+      .contact {
+        margin-bottom: 25px;
+        .name {
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+        .detail {
+          color: $secondary-gray;
+        }
+      }
+    }
+  }
+}

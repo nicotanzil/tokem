@@ -8,14 +8,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/layouts/header.css">
   <title>@yield('title')</title>
   @yield('css')
   @yield('script')
 </head>
 <body>
-  @include('layouts.header')
-  <div class="page">Page</div>
-  @yield('content')
+  <div class="root">
+    @include('layouts.header')
+    @yield('content')
+    @include('layouts.footer')
+  </div>
+  @yield('defer-script')
 </body>
 </html>

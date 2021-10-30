@@ -1,0 +1,54 @@
+@import "./../data/colors.scss";
+@import "./../data/mixins.scss";
+
+.detail {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    .left-container {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 30px;
+      img {
+        width: calc(200px + 10vw);
+        height: calc(200px + 10vw);
+        border-radius: 5px;
+        @include shadow-1;
+      }
+    }
+    .right-container {
+      .name {
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .description,
+      .quantity,
+      .category {
+        color: $secondary-gray;
+        margin-top: 10px;
+      }
+      .input-form {
+        margin-top: 25px;
+      }
+      .input-quantity {
+        border-color: $secondary-black;
+        border-radius: 4px;
+        color: $secondary-gray;
+      }
+      .submit {
+        @include button-submit;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-left: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}

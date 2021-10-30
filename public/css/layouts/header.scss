@@ -6,6 +6,11 @@
   height: 10vh;
   background-color: $primary-white;
   @include shadow-3;
+  z-index: 50;
+}
+
+.home-divider {
+  @include divider-1;
 }
 
 nav {
@@ -15,6 +20,7 @@ nav {
   justify-content: space-between;
   padding: 5px 10px;
   .logo {
+    width: 15%;
     img {
       width: 75px;
     }
@@ -43,6 +49,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 15%;
     .button {
       padding: 10px 20px;
       cursor: pointer;
@@ -79,5 +86,22 @@ nav {
         font-size: 12px;
       }
     }
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 5%;
+  background-color: $primary-gray;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include shadow-2;
+  .content {
+    font-size: 12px;
+    color: $secondary-gray;
   }
 }

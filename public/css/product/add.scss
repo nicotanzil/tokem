@@ -1,0 +1,86 @@
+@import "./../data/colors.scss";
+@import "./../data/mixins.scss";
+
+.add-product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    padding: 5%;
+    .image-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      #preview {
+        max-height: 50vh;
+        max-width: 80vw;
+        border-radius: 5px;
+        @include shadow-2;
+      }
+    }
+    .input {
+      width: 100%;
+      padding: 35px 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      label {
+        color: $secondary-gray;
+        width: 20%;
+      }
+      input,
+      textarea,
+      select {
+        width: 100%;
+        &[type="text"],
+        &[type="number"] {
+          border-color: $secondary-black;
+          border-radius: 4px;
+          color: $secondary-gray;
+        }
+      }
+    }
+    .button-input {
+      display: flex;
+      justify-content: start;
+      padding: 35px 5px;
+      .submit {
+        @include button-submit;
+        width: 100px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .cancel {
+        @include button-cancel;
+        width: 100px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+        text-align: center;
+      }
+    }
+    .error-container {
+      padding: 5px 10px;
+      margin: 20px 0;
+      @include error-box;
+      .error {
+        margin: 5px 0;
+      }
+    }
+    .success-container {
+      padding: 5px 10px;
+      margin: 20px 0;
+      @include success-box;
+      .error {
+        margin: 5px 0;
+      }
+    }
+    hr {
+      @include divider-1;
+    }
+  }
+}

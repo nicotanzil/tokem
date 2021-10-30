@@ -1,0 +1,84 @@
+.detail {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail .container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.detail .container .left-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.detail .container .left-container img {
+  width: calc(200px + 10vw);
+  height: calc(200px + 10vw);
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.detail .container .right-container .name {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.detail .container .right-container .description,
+.detail .container .right-container .quantity,
+.detail .container .right-container .category {
+  color: #6c7280;
+  margin-top: 10px;
+}
+
+.detail .container .right-container .input-form {
+  margin-top: 25px;
+}
+
+.detail .container .right-container .input-quantity {
+  border-color: #1f2937;
+  border-radius: 4px;
+  color: #6c7280;
+}
+
+.detail .container .right-container .submit {
+  background: #5da5f0;
+  -webkit-box-shadow: #5da5f0 0 10px 20px -10px;
+          box-shadow: #5da5f0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5da5f0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.detail .container .right-container .submit:hover {
+  background: #ffffff;
+  color: #5da5f0;
+}
+/*# sourceMappingURL=detail.css.map */

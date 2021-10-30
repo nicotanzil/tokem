@@ -1,0 +1,105 @@
+@import "./data/colors.scss";
+@import "./data/mixins.scss";
+
+.home {
+  width: 100%;
+  .section-1 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      span {
+        font-size: 36px;
+        font-weight: 700;
+      }
+    }
+  }
+  .section-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: $secondary-black;
+    // background-position: center bottom;
+    // background-size: 150px 100px;
+    // background-repeat: no-repeat;
+    padding: 5% 0;
+    .home-bg {
+      width: 65%;
+      border-radius: 10px;
+      @include shadow-2;
+    }
+  }
+
+  .section-3 {
+    width: 100%;
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      width: 100%;
+      text-align: center;
+      .main {
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .description {
+        font-size: 20px;
+        color: $secondary-gray;
+      }
+    }
+    .part-1,
+    .part-2 {
+      width: 75%;
+      margin: 5rem 0;
+      padding: 5px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        width: 400px;
+        border-radius: 10px;
+        @include shadow-2;
+      }
+    }
+    .part-1 {
+      .story {
+        text-align: right;
+        margin-right: 5rem;
+        .title {
+          font-size: 24px;
+          font-weight: 600;
+          text-align: right;
+        }
+        .description {
+          font-size: 18px;
+          color: $secondary-gray;
+        }
+      }
+    }
+    .part-2 {
+      .story {
+        text-align: left;
+        margin-left: 5rem;
+        .title {
+          font-size: 24px;
+          font-weight: 600;
+          text-align: left;
+        }
+        .description {
+          font-size: 18px;
+          color: $secondary-gray;
+        }
+      }
+    }
+  }
+}
