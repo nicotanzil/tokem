@@ -1,0 +1,165 @@
+.container {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Raleway';
+  margin-bottom: 5%;
+}
+
+.logo-login {
+  margin: 10px auto;
+  width: 8%;
+}
+
+h1 {
+  margin-top: -5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-form {
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  text-align: left;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.main-form .input-group input, .main-form .input-group textarea {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-form .input-group input[type=text], .main-form .input-group input[type=password] {
+  width: 48%;
+}
+
+.main-form .input-group input[type=email] {
+  width: 70%;
+}
+
+.main-form .input-group #phone {
+  width: 30%;
+}
+
+.main-form .input-group .text-area {
+  height: 200%;
+}
+
+.main-form .input-group p {
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #6c7280;
+}
+
+.main-form .input-group .btn-create-account {
+  background: #5e5df0;
+  -webkit-box-shadow: #5e5df0 0 10px 20px -10px;
+          box-shadow: #5e5df0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5e5df0;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.main-form .input-group .btn-create-account:hover {
+  background: #ffffff;
+  color: #5e5df0;
+}
+
+.main-form .input-group .error-message {
+  color: #ff4742;
+  font-size: 15px;
+}
+
+.main-form .input-group-split {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.main-form .input-group-split input {
+  width: 145%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-form .input-group-split .second-col {
+  margin-left: 17%;
+}
+
+.main-form .input-group-split-button {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 77%;
+}
+
+.main-form .input-group-split-button input {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #5e5df0;
+  color: #ffffff;
+}
+
+.main-form .input-group-split-button .first-col {
+  width: 100%;
+}
+
+.main-form .input-group-split-button .second-col {
+  margin-left: 10px;
+}
+
+.main-form .input-group-split-error {
+  margin-top: -15px;
+}
+
+.main-form .input-group-split-error .error-message {
+  display: inline-block;
+  color: #ff4742;
+  margin-right: 50px;
+}
+
+.main-form .remember-email {
+  margin-bottom: 20px;
+}
+
+.main-form .error-message {
+  color: #ff4742;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: relative;
+}
+/*# sourceMappingURL=update.css.map */

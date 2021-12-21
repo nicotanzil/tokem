@@ -1,0 +1,72 @@
+@import "./../data/colors.scss";
+@import "./../data/mixins.scss";
+
+.add-category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    padding: 5%;
+
+    .upper-section {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .category {
+        padding: 10px 20px;
+        @include button-primary;
+        border-radius: 5px;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        @include shadow-1;
+        user-select: none;
+      }
+    }
+
+    .content {
+      margin-top: 20px;
+      .title {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .input {
+        padding: 35px 5px;
+        display: flex;
+        align-items: center;
+        label {
+          color: $secondary-gray;
+          width: 20%;
+        }
+        input {
+          width: 100%;
+          border-color: $secondary-black;
+          border-radius: 4px;
+          color: $secondary-gray;
+        }
+      }
+      input[type="submit"] {
+        @include button-submit;
+        padding: 5px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .error-container {
+        padding: 5px 10px;
+        margin: 20px 0;
+        @include error-box;
+        .error {
+          margin: 5px 0;
+        }
+      }
+      .success-container {
+        padding: 5px 10px;
+        margin: 20px 0;
+        @include success-box;
+        .error {
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+}

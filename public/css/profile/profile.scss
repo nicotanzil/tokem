@@ -1,0 +1,127 @@
+@import "../data/colors.scss";
+@import "../data/mixins.scss";
+
+.container{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Raleway';
+  margin-bottom: 5%;
+}
+
+.logo-login{
+  margin: 10px auto;
+  width: 8%;
+}
+
+h1{
+  margin-top: -5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-form{
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  text-align: left;
+  @include shadow-1;
+
+  .input-group{
+    input, textarea{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 2px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input[type=text], input[type=password]{
+      width: 48%;
+    }
+    input[type=email]{
+      width: 70%;
+    }
+    #phone{
+      width: 30%;
+    }
+
+    .text-area{
+      height: 200%;
+    }
+
+    p{
+      text-align: left;
+      margin-top: -10px;
+      margin-bottom: 15px;
+      font-size: 15px;
+      color: $secondary-gray;
+    }
+
+    .btn-create-account{
+      @include button-primary;
+      padding: 5px;
+      border-radius: 4px;
+      margin-top: 20px;
+      margin-left: auto;
+    }
+
+    .error-message{
+      color: $primary-red;
+      font-size: 15px;
+    }
+  }
+
+  .input-group-split{
+    width: 100%;
+    display: flex;
+    margin-left: 65%;
+    input{
+      width: 145%;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 2px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .first-col{
+      input{
+        background-color: $primary-purple;
+        color: $primary-white;
+      }
+    }
+
+    .second-col{
+      margin-left: 7%;
+      input{
+        background-color: $primary-red;
+        color: $primary-white;
+      }
+    }
+  }
+ 
+  .remember-email{
+    margin-bottom: 20px;
+  }
+
+  .error-message{
+    color: $primary-red;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+
+footer{
+  position: relative;
+}
+
+
+
+
+
+

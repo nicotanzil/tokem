@@ -1,0 +1,167 @@
+.add-product {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-product .container {
+  padding: 5%;
+}
+
+.add-product .container .image-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-product .container .image-container #preview {
+  max-height: 50vh;
+  max-width: 80vw;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.add-product .container .input {
+  width: 100%;
+  padding: 35px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-product .container .input label {
+  color: #6c7280;
+  width: 20%;
+}
+
+.add-product .container .input input,
+.add-product .container .input textarea,
+.add-product .container .input select {
+  width: 100%;
+}
+
+.add-product .container .input input[type="text"], .add-product .container .input input[type="number"],
+.add-product .container .input textarea[type="text"],
+.add-product .container .input textarea[type="number"],
+.add-product .container .input select[type="text"],
+.add-product .container .input select[type="number"] {
+  border-color: #1f2937;
+  border-radius: 4px;
+  color: #6c7280;
+}
+
+.add-product .container .button-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 35px 5px;
+}
+
+.add-product .container .button-input .submit {
+  background: #5da5f0;
+  -webkit-box-shadow: #5da5f0 0 10px 20px -10px;
+          box-shadow: #5da5f0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5da5f0;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product .container .button-input .submit:hover {
+  background: #ffffff;
+  color: #5da5f0;
+}
+
+.add-product .container .button-input .cancel {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  -webkit-box-shadow: #ff4742 0 10px 20px -10px;
+          box-shadow: #ff4742 0 10px 20px -10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.add-product .container .button-input .cancel:hover {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.add-product .container .error-container {
+  padding: 5px 10px;
+  margin: 20px 0;
+  background: #ffc7d0;
+  border: 1px solid #ffc7d0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+          box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ff4742;
+}
+
+.add-product .container .error-container .error {
+  margin: 5px 0;
+}
+
+.add-product .container .success-container {
+  padding: 5px 10px;
+  margin: 20px 0;
+  background: #ffffff;
+  -webkit-box-shadow: 1px solid #ffffff;
+          box-shadow: 1px solid #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+          box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #5e5df0;
+}
+
+.add-product .container .success-container .error {
+  margin: 5px 0;
+}
+
+.add-product .container hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(0, 0, 0, 0.75)), to(transparent));
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+/*# sourceMappingURL=add.css.map */

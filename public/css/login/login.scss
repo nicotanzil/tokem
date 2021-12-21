@@ -1,0 +1,137 @@
+@import "../data/colors.scss";
+@import "../data/mixins.scss";
+
+
+.container{
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+  font-family: 'Raleway';
+  margin: 0 auto;
+  margin-bottom: 5%;
+  padding-bottom: 30px;
+  @include shadow-1;
+}
+
+.logo-login{
+  margin: 10px auto;
+  width: 8%;
+}
+
+h1{
+  margin-top: -5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form{
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: -20px;
+
+  .input-group{
+    i{
+      display: block;
+      position: absolute;
+    }
+    .icon{
+      padding-left: 25%;
+      padding-top: 25px;
+      color: #ccc;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    input{
+      width: 100%;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  }
+ 
+  .remember-email{
+    margin-bottom: 20px;
+  }
+
+  p{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    span{ 
+      background:#fff; 
+      padding:0 10px; 
+    }    
+  } 
+ 
+  .btn-sign-in{
+    @include button-primary;
+  }
+
+  .error-message{
+    color: $primary-red;
+    font-size: 15px;
+    margin-top: -5px;
+    border: none;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}
+
+.btn-register{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: $primary-white;
+  color: $secondary-gray;
+  transition: all 0.5s ease;
+  &:hover{
+    background-color: #000;
+    color: $primary-white;
+  }
+}
+
+footer{
+  position: relative;
+}
+
+.flash-message{
+  color: white;
+  background-color: #5cb85c;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 30%;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.error{
+  background-color: $primary-red;
+  color: $primary-white;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 30%;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+

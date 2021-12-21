@@ -1,0 +1,166 @@
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  z-index: 50;
+}
+
+.home-divider {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(0, 0, 0, 0.75)), to(transparent));
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+
+nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 10px;
+}
+
+nav .logo {
+  width: 15%;
+}
+
+nav .logo img {
+  width: 75px;
+}
+
+nav .content ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav .content ul li {
+  padding: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+nav .content ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+nav .content ul li a:hover {
+  color: #5e5df0;
+}
+
+nav .account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 15%;
+}
+
+nav .account .button {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav .account .sign-up {
+  background: #5e5df0;
+  -webkit-box-shadow: #5e5df0 0 10px 20px -10px;
+          box-shadow: #5e5df0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5e5df0;
+  border-radius: 999px;
+}
+
+nav .account .sign-up:hover {
+  background: #ffffff;
+  color: #5e5df0;
+}
+
+nav .account .sign-in,
+nav .account .cart {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+nav .account .sign-in:hover,
+nav .account .cart:hover {
+  color: #5e5df0;
+}
+
+nav .account .profile-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #6c7280;
+  cursor: pointer;
+}
+
+nav .account .profile-button:hover {
+  color: #5e5df0;
+}
+
+nav .account .profile-button .name {
+  font-size: 16px;
+}
+
+nav .account .profile-button .view-profile {
+  font-size: 12px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 5%;
+  background-color: #f9fafb;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer .content {
+  font-size: 12px;
+  color: #6c7280;
+}
+
+form input {
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=header.css.map */

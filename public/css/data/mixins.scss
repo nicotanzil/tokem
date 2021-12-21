@@ -1,0 +1,93 @@
+@mixin shadow-1 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@mixin shadow-2 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@mixin shadow-3 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@mixin red-border {
+  border: 1px solid red;
+}
+
+@mixin button-primary {
+  background: #5e5df0;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  transition: all 0.5s ease;
+  border: 1px solid #5e5df0;
+  &:hover {
+    background: #ffffff;
+    color: #5e5df0;
+  }
+}
+
+@mixin button-submit {
+  background: #5da5f0;
+  box-shadow: #5da5f0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  transition: all 0.5s ease;
+  border: 1px solid #5da5f0;
+  &:hover {
+    background: #ffffff;
+    color: #5da5f0;
+  }
+}
+
+@mixin button-cancel {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  box-shadow: #ff4742 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: initial;
+    background-position: 0 0;
+    color: #ff4742;
+  }
+}
+
+@mixin error-box {
+  background: #ffc7d0;
+  border: 1px solid #ffc7d0;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ff4742;
+}
+
+@mixin success-box {
+  background: #ffffff;
+  box-shadow: 1px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #5e5df0;
+}
+
+@mixin divider-1 {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@mixin border-1 {
+  border: 1px solid
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+}

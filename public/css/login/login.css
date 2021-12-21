@@ -1,0 +1,145 @@
+.container {
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+  font-family: 'Raleway';
+  margin: 0 auto;
+  margin-bottom: 5%;
+  padding-bottom: 30px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo-login {
+  margin: 10px auto;
+  width: 8%;
+}
+
+h1 {
+  margin-top: -5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: -20px;
+}
+
+form .input-group i {
+  display: block;
+  position: absolute;
+}
+
+form .input-group .icon {
+  padding-left: 25%;
+  padding-top: 25px;
+  color: #ccc;
+  min-width: 50px;
+  text-align: center;
+}
+
+form .input-group input {
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form .remember-email {
+  margin-bottom: 20px;
+}
+
+form p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+form p span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+form .btn-sign-in {
+  background: #5e5df0;
+  -webkit-box-shadow: #5e5df0 0 10px 20px -10px;
+          box-shadow: #5e5df0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5e5df0;
+}
+
+form .btn-sign-in:hover {
+  background: #ffffff;
+  color: #5e5df0;
+}
+
+form .error-message {
+  color: #ff4742;
+  font-size: 15px;
+  margin-top: -5px;
+  border: none;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.btn-register {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #ffffff;
+  color: #6c7280;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn-register:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+footer {
+  position: relative;
+}
+
+.flash-message {
+  color: white;
+  background-color: #5cb85c;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 30%;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #ff4742;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 30%;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+/*# sourceMappingURL=login.css.map */

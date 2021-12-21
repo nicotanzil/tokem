@@ -1,0 +1,157 @@
+.update-product {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.update-product .container {
+  padding: 5%;
+}
+
+.update-product .container .upper-section {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.update-product .container .upper-section .name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.update-product .container .form-section .image-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.update-product .container .form-section .image-container #preview {
+  max-height: 50vh;
+  max-width: 80vw;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.update-product .container .form-section .input {
+  width: 100%;
+  padding: 35px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.update-product .container .form-section .input label {
+  color: #6c7280;
+  width: 20%;
+}
+
+.update-product .container .form-section .input input,
+.update-product .container .form-section .input textarea {
+  width: 100%;
+}
+
+.update-product .container .form-section .input input[type="text"], .update-product .container .form-section .input input[type="number"],
+.update-product .container .form-section .input textarea[type="text"],
+.update-product .container .form-section .input textarea[type="number"] {
+  border-color: #1f2937;
+  border-radius: 4px;
+  color: #6c7280;
+}
+
+.update-product .container .form-section .button-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 35px 5px;
+}
+
+.update-product .container .form-section .button-input .submit {
+  background: #5da5f0;
+  -webkit-box-shadow: #5da5f0 0 10px 20px -10px;
+          box-shadow: #5da5f0 0 10px 20px -10px;
+  color: #ffffff;
+  outline: 0 solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5da5f0;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-product .container .form-section .button-input .submit:hover {
+  background: #ffffff;
+  color: #5da5f0;
+}
+
+.update-product .container .form-section .button-input .cancel {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  -webkit-box-shadow: #ff4742 0 10px 20px -10px;
+          box-shadow: #ff4742 0 10px 20px -10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.update-product .container .form-section .button-input .cancel:hover {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.update-product .container .form-section .error-container {
+  padding: 5px 10px;
+  margin: 20px 0;
+  background: #ffc7d0;
+  border: 1px solid #ffc7d0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+          box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ff4742;
+}
+
+.update-product .container .form-section .error-container .error {
+  margin: 5px 0;
+}
+
+.update-product .container hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(0, 0, 0, 0.75)), to(transparent));
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+/*# sourceMappingURL=update.css.map */

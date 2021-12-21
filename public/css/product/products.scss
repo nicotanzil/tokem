@@ -1,0 +1,121 @@
+@import "./../data/colors.scss";
+@import "./../data/mixins.scss";
+
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    padding: 5%;
+    .success-container {
+      padding: 5px 10px;
+      margin: 20px 0;
+      @include success-box;
+      .error {
+        margin: 5px 0;
+      }
+    }
+    .upper-section {
+      margin: 3% 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      .title {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .product-configurations {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        #search {
+          border-radius: 5px;
+          color: $secondary-gray;
+        }
+        .button {
+          background-color: $primary-blue;
+          padding: 5px 10px;
+          margin: 0 10px;
+          border-radius: 5px;
+          cursor: pointer;
+          @include button-submit;
+        }
+        input[type="submit"] {
+          background-color: $primary-purple;
+          @include button-primary;
+        }
+      }
+    }
+    .content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .product-card {
+        height: 350px;
+        width: 300px;
+        margin: 15px 10px;
+        padding: 10px;
+        border-radius: 5px;
+        @include shadow-1;
+        .upper-content {
+          height: 85%;
+          width: 100%;
+          padding: 5px 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border-bottom: 1px solid $secondary-gray;
+          #preview {
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+          }
+          .name {
+            font-size: 18px;
+            font-weight: 600;
+          }
+          .price {
+            color: $secondary-gray;
+          }
+          .category {
+            font-size: 12px;
+            color: $primary-white;
+            background: $primary-purple;
+            padding: 5px 10px;
+            border-radius: 15px;
+            opacity: 0.8;
+            margin-top: 5px;
+          }
+        }
+        .lower-content {
+          width: 100%;
+          height: 15%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .notice {
+            color: $primary-red;
+          }
+          .button {
+            padding: 5px 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            @include shadow-2;
+            font-size: 14px;
+          }
+          .good {
+            @include button-submit;
+          }
+          .bad {
+            @include button-cancel;
+          }
+        }
+      }
+    }
+  }
+}

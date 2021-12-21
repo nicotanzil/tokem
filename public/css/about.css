@@ -1,0 +1,103 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 10;
+}
+
+.about .about-divider {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(0, 0, 0, 0.75)), to(transparent));
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+
+.about .section-1 {
+  width: 100%;
+  min-height: 50vh;
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about .section-1 .quote {
+  font-size: 24px;
+  color: #6c7280;
+}
+
+.about .section-1 .detail {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.about .section-2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #f9fafb;
+}
+
+.about .section-2 .left,
+.about .section-2 .content {
+  width: 25%;
+  padding: 10px;
+  margin: 10px 15px;
+}
+
+.about .section-2 .left span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about .section-2 .center .contact,
+.about .section-2 .content .contact {
+  margin-bottom: 25px;
+}
+
+.about .section-2 .center .contact .name,
+.about .section-2 .content .contact .name {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about .section-2 .center .contact .detail,
+.about .section-2 .content .contact .detail {
+  color: #6c7280;
+}
+/*# sourceMappingURL=about.css.map */
